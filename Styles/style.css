@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Six+Caps");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+body {
+    background-image: url(../images/art-background4.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header {
+    background-color: white;
+    width: 18em;
+    height: 5em;
+    padding: 1em 1em 2em 1.5em;
+    margin-left: 15em;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: auto;
+    font-family: 'Six Caps';
+}
+
+header h2 {
+    margin: auto;
+    font-size: 0.75em;
+    font-family: 'Roboto';
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 25rem;
+    height: auto;
+    margin-left: 15rem;
+    margin-top: 6rem;
+}
+
+article h2 {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    margin: auto;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+article p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+    padding: 0.5em;
+}
+
+article>p:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 0.5em;
+    width: 15em;
+    padding: 1em;
+}
+
+footer {
+    background-color: whitesmoke;
+    padding: 1em;
+}
